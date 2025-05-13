@@ -97,4 +97,104 @@ C interview questions:
     cmd for memory map generation:
         gcc -o example example.c -Wl,-Map=output.map
 
-7. 
+7. what is compliler, intetpreter and assembler? 
+
+    Compiler: 
+            A compiler is a program that translates the entire source code
+            (written in a high-level language like C, C++, or Java) into machine code (binary)
+             before execution.
+
+        ex: c, c++
+
+    Interpreter:
+        An interpreter translates and runs code line by line, at runtime. 
+        It doesn't produce a separate executable.
+
+        ex: python
+
+        javascript ->  Interpreted + JIT Compiled
+    
+    Assembler: 
+            An assembler converts assembly language (low-level human-readable instructions) 
+            into machine code.
+
+    ☕ What About Java? Is it Compiled or Interpreted?
+        Java is a hybrid language — it uses both a compiler and an interpreter (actually, a Just-In-Time compiler too).
+
+    🔄 Java Compilation and Execution Flow
+
+        Java Compiler (javac):
+        Converts your .java source file (high-level) into bytecode, stored in a .class file.
+        Bytecode is not machine code, but a platform-independent intermediate representation.
+
+        Java Virtual Machine (JVM):
+        Reads the bytecode (.class files).
+        Interprets or compiles it Just-In-Time (JIT) into machine code for the host CPU.
+
+    | Tool            | Input Language      | Output            | Works How?                    |
+    | --------------- | ------------------- | ----------------- | ----------------------------- |
+    | **Compiler**    | High-level (C, C++) | Machine code      | Translates all at once        |
+    | **Interpreter** | High-level (Python) | Executes directly | Translates line by line       |
+    | **Assembler**   | Assembly            | Machine code      | Translates assembly to binary |
+
+
+    | Language         | Tool/Environment                             | Type of Tool                    | Notes                                           |
+    | ---------------- | -------------------------------------------- | ------------------------------- | ----------------------------------------------- |
+    | **C**            | `gcc`, `clang`                               | Compiler                        | Compiles to machine code                        |
+    | **C++**          | `g++`, `clang++`                             | Compiler                        | Supports OOP, more complex than C               |
+    | **Java**         | `javac` + `java` (JVM)                       | Compiler + Interpreter/JIT      | Compiles to bytecode, runs on JVM               |
+    | **Python**       | `python`, `python3`                          | Interpreter (with optional JIT) | Line-by-line execution; PyPy adds JIT           |
+    | **JavaScript**   | V8 (Chrome), SpiderMonkey (Firefox), Node.js | Interpreter + JIT               | Runs in browsers or Node.js                     |
+    | **C#**           | `csc` (C# compiler), .NET CLR                | Compiler + VM                   | Compiles to IL code; runs on .NET runtime       |
+    | **Ruby**         | `ruby`                                       | Interpreter                     | Dynamic, high-level scripting language          |
+    | **Go**           | `go build`, `go run`                         | Compiler                        | Compiles to a single binary                     |
+    | **Rust**         | `rustc`, `cargo`                             | Compiler                        | Safe systems language; compiles to machine code |
+    | **Kotlin**       | `kotlinc`, JVM                               | Compiler                        | Can compile to JVM bytecode or JavaScript       |
+    | **Swift**        | `swiftc`, Xcode                              | Compiler                        | Used for iOS/macOS development                  |
+    | **PHP**          | `php`                                        | Interpreter                     | Server-side scripting language                  |
+    | **TypeScript**   | `tsc`                                        | Compiler (to JS)                | Superset of JavaScript, compiled to plain JS    |
+    | **Perl**         | `perl`                                       | Interpreter                     | Text processing and scripting                   |
+    | **Scala**        | `scalac`, JVM                                | Compiler                        | Runs on JVM, functional + OOP                   |
+    | **Haskell**      | `ghc`                                        | Compiler                        | Purely functional language                      |
+    | **R**            | `R`                                          | Interpreter                     | Used in statistics and data analysis            |
+    | **Shell (Bash)** | `bash`                                       | Interpreter (Shell)             | Unix shell language                             |
+    | **Assembly**     | `nasm`, `gas`, `as`                          | Assembler                       | Translates assembly to machine code             |
+    | **MATLAB**       | MATLAB environment                           | Interpreter + JIT               | Numeric computing and simulations               |
+
+8. Endianness in c program? 
+   little endian vs big endian?
+   write a program to find the endian?
+
+    Endianness is refer to the byte order used by computer or microcontroller.
+    or 
+    machine to read or write single "machine word" in memory.
+
+    32-bit or 64-bit machine word.
+
+    endian will decide how to store multiple bytes in memory.
+    It’s all about the order of the bytes of a word (multi-byte variable) in memory.
+
+    little endian:
+        LSB (Least significant byte) is stored first or to a lower memory address.
+
+        Thus, the little-endian byte order means, when the computer writes a word (Multi Byte) into memory,
+        it begins by writing the Lowest byte to the lowest memory address and continues until it has written the highest byte to the highest memory address. 
+        It does this by writing subsequent and ascending memory addresses, no matter the endianness.
+
+    Big Endian: (MSB (Most significant byte))
+        In Big Endian, MSB (Most significant byte) is stored first or to a lower memory address.
+        The big-endian byte order means, when the computer writes a word (Multi Byte) into memory, 
+        it begins by writing the highest byte to the lowest memory address and continues until it has written the lowest byte to the highest memory address.
+
+    example:
+        0x11223344
+	
+    Big Endian			
+        Memory Address	100	   101	    102	   103
+             Content	0x11	0x22	0x33	0x44
+
+    little endian:
+        Memory Address	100	    101 	102 	103
+            Content 	0x44	0x33	0x22	0x11
+
+9. where endianess 
