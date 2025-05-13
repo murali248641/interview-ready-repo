@@ -197,4 +197,14 @@ C interview questions:
         Memory Address	100	    101 	102 	103
             Content 	0x44	0x33	0x22	0x11
 
-9. where endianess 
+9. where endianess is matter for developers for developing a program?
+
+    | Area                         | Why It Matters                                            |
+    | ---------------------------- | --------------------------------------------------------- |
+    | Network programming          | Different systems → standardize to network byte order     |
+    | Binary file formats          | Files shared between machines → use consistent byte order |
+    | Embedded systems             | CPU architectures vary → must handle explicitly           |
+    | Multimedia/network protocols | File or protocol specs define byte order                  |
+    | Cross-platform development   | System compatibility requires consistent interpretation   |
+
+10. program endian conversion in c program?
