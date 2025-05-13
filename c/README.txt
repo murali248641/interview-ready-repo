@@ -1,3 +1,6 @@
+C interview questions:
+=====================
+
 1. Intro to c?
         c is developed by deDennis Ritchie at bell labortory(1972). 
         Dennis Ritchie  is founder of c.
