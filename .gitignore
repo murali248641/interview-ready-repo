@@ -1,0 +1,6 @@
+# Ignore preprocessor, assembly, object and executables files
+*.i
+*.s
+*.o
+*.exe
+*.vscode
