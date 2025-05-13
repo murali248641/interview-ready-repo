@@ -61,3 +61,40 @@ C interview questions:
         Debugger	    Helps track down bugs in compiled code	                gdb
         Build System    Automates compiling/linking steps                   	make, cmake
 
+5. Difference between char *a & char a[] in c ?
+
+    char *a -> The string literal "Hello" is stored in read-only memory.
+               we cannot change the value of a.
+
+    char a[] -> is stored in stack memory. we change the value of a.
+
+    | Feature                | `char *a = "Hello";`    | `char a[] = "Hello";`             |
+    | ---------------------- | ----------------------- | --------------------------------- |
+    | Where data is stored   | Read-only section       | Stack (or local variable space)   |
+    | Can modify contents?   | No (undefined behavior) | Yes                               |
+    | Can reassign variable? | Yes                     | No (array name is not assignable) |
+    | Type                   | Pointer to char         | Array of char                     |
+
+6. memory map of the c program?
+
+    memory layout of c program is refer to how the program's data stored in memory during program execution.
+    understanding this layout helps developer manage memory efficiently. Avoid issue like segmenation falue or memory leaks.
+
+    | Segment     | Contains                                | Init Value   |
+    | ---------   | --------------------------------------- | ------------ |
+    | **Text**    | Program code (instructions)             | N/A          |
+    | **Data**    | Initialized global/static variables     | Given values |
+    | **BSS**     | Uninitialized global/static variables   | Zero         |
+    | **.rodata** | **String literals**, constant variables |
+    | **Heap**    | Dynamically allocated memory (`malloc`) | Undefined    |
+    | **Stack**   | Function call frames, local variables   | Undefined    |
+
+    Why Use a Separate Segment?
+        The BSS segment doesn't take up space in the executable file — just metadata (size).
+        At runtime, the operating system initializes this memory to zero.
+        This saves space in the compiled binary and speeds up loading.
+
+    cmd for memory map generation:
+        gcc -o example example.c -Wl,-Map=output.map
+
+7. 
