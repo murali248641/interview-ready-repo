@@ -208,3 +208,94 @@ C interview questions:
     | Cross-platform development   | System compatibility requires consistent interpretation   |
 
 10. program endian conversion in c program?
+
+11. What does the static keyword mean in C?
+     The static keyword can be used in different contexts,
+        -> inside the functions
+            value retained multiple function calls
+        -> static global variable
+            make variable visiable to current file only.
+        -> static function
+            make function is visiable to current file only.
+
+12. Can a static variable be declared in a header file?
+        Yes, but it causes each source file including the header to have its own separate copy
+        of the static variable (because of internal linkage).
+        This is usually discouraged.
+
+13. why  static const int a;  declaring in header file is valid?
+        Because static gives it internal linkage and const makes it read-only,
+        each including .c file gets its own private copy of a, 
+        and there is no linker conflict and no logical issue.
+        so its safe for using in header file.
+
+14. what is translation unit in c?
+        A translation unit is the result of a source file (.c) after the preprocessor has:
+            included all headers
+            expanded all macros
+            removed comments
+        
+        example:
+            One .c file + everything it includes (via #include) = One translation unit
+
+15. what is mean by internal, external and no linkage in c?
+
+        | Linkage Type         | Description                                                                |
+        | -------------------- | -------------------------------------------------------------------------- |
+        | **Internal Linkage** | Identifier is **visible only within the same translation unit**            |
+        | **External Linkage** | Identifier is **visible across multiple translation units**                |
+        | **No Linkage**       | Identifier is **local to a block** (i.e., no visibility outside the block) |
+
+16. storage class explain in c?
+
+    In C, a storage class defines four key properties of a variable or function:
+
+        Scope – Where it can be accessed (e.g., inside a block, file-wide, or across files)
+        Lifetime – How long it exists in memory
+        Linkage – Whether it's accessible from other files
+        Storage location – Typically RAM or CPU registers
+
+    | Storage Class | Keyword    | Scope                 | Lifetime         | Linkage          |
+    | ------------- | ---------- | --------------------- | ---------------- | ---------------- |
+    | **Automatic** | `auto`     | Local (block)         | Until block ends | No linkage       |
+    | **Register**  | `register` | Local (block)         | Until block ends | No linkage       |
+    | **Static**    | `static`   | Depends on context    | Entire program   | Internal or none |
+    | **External**  | `extern`   | Global (across files) | Entire program   | External         |
+
+17. Why is declaring static variables in headers dangerous?
+
+    | Issue                     | Explanation                                                                                              |
+    | ------------------------- | -------------------------------------------------------------------------------------------------------- |
+    | **Memory bloat**          | Every `.c` file including the header gets a separate copy of the variable.                               |
+    | **Inconsistent behavior** | You might think you're updating a shared global value, but you're actually working with isolated copies. |
+    | **Hard to debug**         | Changes to the variable in one file **don’t affect** the value in another — leading to confusing bugs.   |
+    | **Hidden coupling**       | It hides logic inside a header that silently alters the program’s memory model.                          |
+
+18. Explain the lifetime, scope, and linkage of a static variable inside a function?
+        | Property     | Value                            |
+        | ------------ | -------------------------------- |
+        | **Lifetime** | Whole program duration           |
+        | **Scope**    | Inside the function only         |
+        | **Linkage**  | No linkage (not visible outside) |
+
+19. What is linkage in C? How does it relate to storage classes?
+
+    Linkage in C determines whether an identifier (variable/function) defined in one file can be accessed in another file.
+
+    | Linkage Type         | Meaning                                                            |
+    | -------------------- | ------------------------------------------------------------------ |
+    | **External Linkage** | Identifier is accessible from **other files**                      |
+    | **Internal Linkage** | Identifier is **only accessible within the same translation unit** |
+    | **No Linkage**       | Identifier is **local to its block/function**                      |
+
+20. what is diffference between global int and static int in declaration?
+        | Feature                     | Global `int` (`int a;`)                                                     | Static `int` (`static int a;`)                              |
+        | --------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------- |
+        | **Scope (Visibility)**      | Visible **across all files** (external linkage)                             | Visible **only within the current file** (internal linkage) |
+        | **Linkage**                 | **External linkage**: shared between files                                  | **Internal linkage**: private to the file                   |
+        | **Storage Area**            | Stored in **.data** (if initialized) or **.bss** (if uninitialized) segment | Stored in **.data** or **.bss** as well                     |
+        | **Initialization Default**  | Zero (if not explicitly initialized)                                        | Zero (if not explicitly initialized)                        |
+        | **Access from other files** | Yes, via `extern` declaration                                               | No, cannot be accessed outside the file                     |
+        | **Use Case**                | Variables meant to be **shared globally**                                   | Variables meant to be **private to the file**               |
+
+21. 
