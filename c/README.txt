@@ -298,4 +298,8 @@ C interview questions:
         | **Access from other files** | Yes, via `extern` declaration                                               | No, cannot be accessed outside the file                     |
         | **Use Case**                | Variables meant to be **shared globally**                                   | Variables meant to be **private to the file**               |
 
-21. 
+21. Build own strlen program in c?
+
+22. Build own strrev program in c?
+
+23. how do you allocate and free the memory for 2d array.?
