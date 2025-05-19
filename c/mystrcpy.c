@@ -3,7 +3,7 @@
 
 int is_overlapping(const char *src, char *dest)
 {
-    int len = strlen(src);
+    int len = strlen(src)+1;
 
     return ( (dest < (src+len)) && (src < (dest+len)) );
 }
