@@ -308,4 +308,6 @@ C interview questions:
 
 25. Build your own strcmp program in c?
 
-26. how do you allocate and free the memory for 2d array.?
+26. Build your own strcmp without casesensitive program in c?
+
+27. how do you allocate and free the memory for 2d array.?
