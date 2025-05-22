@@ -310,4 +310,10 @@ C interview questions:
 
 26. Build your own strcmp without casesensitive program in c?
 
-27. how do you allocate and free the memory for 2d array.?
+27. Build nibble swap program in c?
+
+28. count setbits in a variable in c?
+
+29. setbit and clear bit program in c?
+
+30. how do you allocate and free the memory for 2d array.?
