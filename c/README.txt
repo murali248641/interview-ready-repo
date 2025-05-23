@@ -318,4 +318,8 @@ C interview questions:
 
 30. check the number is power of 2 in c?
 
-31. how do you allocate and free the memory for 2d array?
+31. swap 2 number without temp variable?
+
+32. find non-repeating element in a array?
+
+33. how do you allocate and free the memory for 2d array?
