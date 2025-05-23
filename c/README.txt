@@ -324,4 +324,30 @@ C interview questions:
 
 33. find all non-repeating element in a array?
 
-34. how do you allocate and free the memory for 2d array?
+34. Reverse the array in c?
+
+35. find the maximum and minimum element in a array?
+
+36. check array is sorted?
+
+37. Find all pairs with a given sum?
+
+38. Merge two sorted arrays?
+
+39. Find union and intersection of two arrays?
+
+40. Remove duplicates from a sorted/unsorted array?
+
+41. Find missing number in 1 to n (using sum or XOR)?
+
+42. Find the frequency of all elements using hashing?
+
+43. how do you allocate and free the memory for 2d array?
+
+44. call by value and call by reference fully understand in c?
+
+45. volatile in c?
+
+46. union vs structure in c?
+
+47. return the structure from function to caller function?
