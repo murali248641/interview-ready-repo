@@ -314,6 +314,8 @@ C interview questions:
 
 28. count setbits in a variable in c?
 
-29. setbit and clear bit program in c?
+29. setbit, clearbit, togglebit and odd-even using bitwise operator program in c?
 
-30. how do you allocate and free the memory for 2d array.?
+30. check the number is power of 2 in c?
+
+31. how do you allocate and free the memory for 2d array?
