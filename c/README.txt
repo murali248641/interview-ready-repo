@@ -351,3 +351,9 @@ C interview questions:
 46. union vs structure in c?
 
 47. return the structure from function to caller function?
+
+48. 2D array allocation using pointers?
+
+49. Write custom memcpy() or memmove() function?
+
+50. Sort array using pointer arithmetic?
