@@ -320,6 +320,8 @@ C interview questions:
 
 31. swap 2 number without temp variable?
 
-32. find non-repeating element in a array?
+32. find single non-repeating element in a array?
 
-33. how do you allocate and free the memory for 2d array?
+33. find all non-repeating element in a array?
+
+34. how do you allocate and free the memory for 2d array?
