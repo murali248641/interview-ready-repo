@@ -332,30 +332,30 @@ C interview questions:
 
 37. sort the array of integer using c?
 
-37. Find all pairs with a given sum?
+38. Find all pairs with a given sum?
 
-38. Merge two sorted arrays?
+39. Merge two sorted arrays?
 
-39. Find union and intersection of two arrays?
+40. Find union and intersection of two arrays?
 
-40. Remove duplicates from a sorted/unsorted array?
+41. Remove duplicates from a sorted/unsorted array?
 
-41. Find missing number in 1 to n (using sum or XOR)?
+42. Find missing number in 1 to n (using sum or XOR)?
 
-42. Find the frequency of all elements using hashing?
+43. Find the frequency of all elements using hashing?
 
-43. how do you allocate and free the memory for 2d array?
+44. how do you allocate and free the memory for 2d array?
 
-44. call by value and call by reference fully understand in c?
+45. call by value and call by reference fully understand in c?
 
-45. volatile in c?
+46. volatile in c?
 
-46. union vs structure in c?
+47. union vs structure in c?
 
-47. return the structure from function to caller function?
+48. return the structure from function to caller function?
 
-48. 2D array allocation using pointers?
+49. 2D array allocation using pointers?
 
-49. Write custom memcpy() or memmove() function?
+50. Write custom memcpy() or memmove() function?
 
-50. Sort array using pointer arithmetic?
+51. Sort array using pointer arithmetic?
