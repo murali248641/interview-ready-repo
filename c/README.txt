@@ -330,6 +330,8 @@ C interview questions:
 
 36. check array is sorted?
 
+37. sort the array of integer using c?
+
 37. Find all pairs with a given sum?
 
 38. Merge two sorted arrays?
