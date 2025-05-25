@@ -341,7 +341,8 @@ C interview questions:
 41. Remove duplicates from a sorted/unsorted array?
 
 42. Find missing number in 1 to n (using sum or XOR)?
-
+        sum formula -> sum1..n = n(n+1)/2
+      
 43. Find the frequency of all elements using hashing?
 
 44. how do you allocate and free the memory for 2d array?
