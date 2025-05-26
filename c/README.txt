@@ -418,7 +418,19 @@ C interview questions:
     *p = 'M';    /* error */
     p = "Bye";   /* error */
 
-60 .
+60 . array of pointer,
+     pointer to array,
+     function pointer examples?
+
+    int *p[10];
+    int (*p) [10];
+    int (*fun) (); 
+
+61. write the function of reverse the number in c?
+
+62. write own atoi() function in c?
+
+
 
 
 
