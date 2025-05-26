@@ -398,10 +398,27 @@ C interview questions:
 
 58. write function ptr for malloc api?
 
-59. 
+59. char *p = "Hello";
+    *p = 'M';    /* works */
+    p = "Bye";   /* works */
 
+    const char *p = "Hello";
+    *p = 'M';    /* error */
+    p = "Bye";   /* works */
 
+    char const *p = "Hello";
+    *p = 'M';    /* error */
+    p = "Bye";   /* works */
 
+    char  * const p = "Hello";
+    *p = 'M';    /* works */
+    p = "Bye";   /* error */
+
+    const char  * const p = "Hello";
+    *p = 'M';    /* error */
+    p = "Bye";   /* error */
+
+60 .
 
 
 
@@ -411,10 +428,15 @@ Linkedlist related questions:
 3. Nth node from end of linked list
 4. Detect Loop in linked list
 5. Remove loop in Linked List
+6. Add two numbers represented by Linked lists
+7. Reverse a linked list in groups of given size
+8. Intersection point of two Linked Lists
+9. delete the node in linked list?
+10. delete middle of linked list?
+11. remove nth node from end of list?
 
-Reverse a linked list in groups of given size
-Intersection point of two Linked Lists
-Add two numbers represented by Linked lists
+
+
 Implement Queue using Linked List
 Implement a stack using singly linked list
 Merge two sorted linked lists
@@ -426,9 +448,6 @@ Remove duplicate elements from sorted linked list
 
 Print the Middle of a given linked list
 Reverse a Linked List
-1. delete the node in linked list?
-2. delete middle of linked list?
-3. remove nth node from end of list?
    sort list
    
 
