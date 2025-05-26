@@ -396,12 +396,57 @@ C interview questions:
     2) What does ++*𝗽𝘁𝗿 do?
     3) What does *𝗽𝘁𝗿++ do?
 
+58. write function ptr for malloc api?
+
+59. 
 
 
 
 
 
 
+Linkedlist related questions:
+1. Print the Middle of a given linked list
+2. Reverse a Linked List
+3. Nth node from end of linked list
+4. Detect Loop in linked list
+5. Remove loop in Linked List
+
+Reverse a linked list in groups of given size
+Intersection point of two Linked Lists
+Add two numbers represented by Linked lists
+Implement Queue using Linked List
+Implement a stack using singly linked list
+Merge two sorted linked lists
+Intersection point in Y shaped Linked lists
+Intersection of two Sorted Linked Lists
+Delete last occurrence of an item from linked list
+Delete middle of linked list
+Remove duplicate elements from sorted linked list
+
+Print the Middle of a given linked list
+Reverse a Linked List
+1. delete the node in linked list?
+2. delete middle of linked list?
+3. remove nth node from end of list?
+   sort list
+   
+
+1. Reverse Linked List: https://lnkd.in/g6etVg3C
+2. Palindrome Linked List: https://lnkd.in/gk883n7E
+3. Middle of the Linked List: https://lnkd.in/dk_EuXBV
+4. Intersection of Two Linked Lists: https://lnkd.in/guiNJzCn
+5. Design Linked List: https://lnkd.in/ggb76-kP
+6. Remove Duplicates from Sorted List II: https://lnkd.in/g2rfvkHX
+7. Swap Nodes in Pairs: https://lnkd.in/giDUfZpE
+8. Copy List with Random Pointer: https://lnkd.in/gMTwRYgM
+9. Rotate List: https://lnkd.in/gtg4hjUz
+10. Add Two Numbers: https://lnkd.in/dZ2hfGGf
+11. Linked List Cycle II: https://lnkd.in/guyrrkjf
+12. Reverse Linked List II: https://lnkd.in/g-Tc7TpU
+13. Partition List: https://lnkd.in/gc9BMiWv
+14. Flatten a Multilevel Doubly Linked List: https://lnkd.in/gGjHPKjR
+15. Reverse Nodes in k-Group: https://lnkd.in/gwZBd4Kx
 
 
 String-Based Questions
