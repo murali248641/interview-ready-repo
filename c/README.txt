@@ -348,13 +348,107 @@ C interview questions:
 44. how do you allocate and free the memory for 2d array?
 
 45. call by value and call by reference fully understand in c?
+        understand in deep.
+        when need to pass ** in function parameter
+        try multiple mcq
 
 46. volatile in c?
+    The volatile keyword in C is a type qualifier that tells the compiler not to optimize 
+    accesses to a variable — because the value of the variable can change unexpectedly, 
+    outside the program’s control.
 
-47. union vs structure in c?
+        volatile keyword tells 
+        1. prevent compiler optimize on variable access.
+        2. always read and write from memory
+        3. variable changed externally.
 
-48. return the structure from function to caller function?
+47. Can a constant variable be volatile?
+        yes 
 
-49. Write custom memcpy() or memmove() function?
+48. union vs structure in c?
+    | Feature           | `struct`                                 | `union`                                        |
+    | ----------------- | ---------------------------------------- | ---------------------------------------------- |
+    | Memory allocation | Each member gets its **own memory**      | All members **share the same memory**          |
+    | Total size        | Sum of sizes (plus padding)              | Size of the **largest** member                 |
+    | Member access     | All members can be accessed **at once**  | Only **one member** is valid at a time         |
+    | Use case          | Group related data (e.g., employee info) | Store **one of many types** in the same memory |
+    | Overlap           | No                                       | Yes — all members overlap                      |
 
-50. Sort array using pointer arithmetic?
+49. return the structure from function to caller function?
+
+50. Write custom memcpy() or memmove() function?
+
+51. Sort array using pointer arithmetic?
+
+52. const variable,  const pointer related example?
+
+53. Bitfields + unions, Bitfields + struct?
+
+54. function pointers examples?
+    callback registration mechanism in c? communication between two modules?
+    pointer-to-array-of-function-pointers?
+
+55. lvalue vs rvalue related errors with examples?
+
+56. What do the keywords volatile, restrict, and inline mean in C? 
+
+57. 1) What does *++𝗽𝘁𝗿 do?
+    2) What does ++*𝗽𝘁𝗿 do?
+    3) What does *𝗽𝘁𝗿++ do?
+
+
+
+
+
+
+
+
+
+String-Based Questions
+1. Reverse a string — without using built-ins.
+2. Is it a palindrome? Let's find out.
+3. Remove duplicates from a string — efficiently.
+4. First non-repeating character — who stands alone?
+5. Count how many times each character appears.
+6. Flip the words in a sentence, not the letters.
+7. Are two strings anagrams? Prove it.
+8. Longest substring without repeats — sliding window style.
+9. Build your own atoi — string to integer.
+10. Compress strings with run-length encoding.
+11. Most frequent character — who dominates?
+12. List all possible substrings of a string.
+13. Is one string a rotation of another?
+14. Strip all white spaces from a string.
+15. Is this a valid shuffle of two strings?
+16. Convert text to Title Case — properly.
+17. Find the longest common prefix among words.
+18. Break a string into a char array — without confusion.
+19. Replace spaces with %20 — classic URL trick.
+20. Turn full sentences into acronyms.
+21. Check if the string is all digits — no alphabets allowed.
+22. Count how many words are in the string.
+23. Remove a specific character — cleanly.
+24. Find the shortest word in a sentence.
+25. Longest palindromic substring — two-pointer style.
+
+Array-Based Questions
+26. Reverse an array in-place.
+27. Find the largest and smallest element.
+28. Check for duplicates in an array.
+29. Remove duplicates — return only unique values.
+30. Find the missing number from 1 to N.
+31. Move all zeros to the end — keep order.
+32. Rotate the array left/right by K positions.
+33. Find the Kth largest/smallest element.
+34. Merge two sorted arrays — without using extra space.
+35. Find the intersection of two arrays.
+36. Sort 0s, 1s, and 2s without using sort().
+37. Find subarrays with a given sum.
+38. Detect if a subarray sums to 0.
+39. Find the longest increasing subsequence.
+40. Kadane’s Algorithm — maximum subarray sum.
+41. Check if array is sorted and rotated.
+42. Rearrange array in max-min order alternately.
+43. Find leaders in an array (no greater element to the right).
+44. Calculate frequency of all elements in O(n).
+45. Product of all elements except self.
