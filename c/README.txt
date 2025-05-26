@@ -355,8 +355,6 @@ C interview questions:
 
 48. return the structure from function to caller function?
 
-49. 2D array allocation using pointers?
+49. Write custom memcpy() or memmove() function?
 
-50. Write custom memcpy() or memmove() function?
-
-51. Sort array using pointer arithmetic?
+50. Sort array using pointer arithmetic?
