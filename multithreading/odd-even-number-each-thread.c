@@ -15,7 +15,7 @@ void* printodd(void*)
     while(1)
     {
         sem_wait(&sync_odd);
-        printf("\n %d\n", value++);
+        printf("\n odd thread %d\n", value++);
         sem_post(&sync_even);
     }
 }
@@ -25,7 +25,7 @@ void* printeven(void*)
     while(1)
     {
         sem_wait(&sync_even);
-        printf("\n %d\n", value++);
+        printf("\n even thread %d\n", value++);
         sem_post(&sync_odd);
     }
 }
@@ -40,6 +40,6 @@ int main()
     pthread_create(&t1, NULL, printodd, NULL);
     pthread_create(&t2, NULL, printeven, NULL);
 
-    pthread_join(&t1, NULL);
-    pthread_join(&t2, NULL);
+    pthread_join(t1, NULL);
+    pthread_join(t2, NULL);
 }
