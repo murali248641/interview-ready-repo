@@ -78,4 +78,12 @@ c++ Interview questions
         | `protected`        | `protected`          | `protected`             | `private`             |
         | `private`          | Not Inherited        | Not Inherited           | Not Inherited         |
 
-4.  override, final, virtual function, virtual destructor?   
+4.  What is a constructor?
+        types: default, copy constuctor, parameterized constructor.
+
+    constructor is special member function of the class.
+    its same us class name. it called whenever object is created.
+    purpose of this initializing the members of the object.
+
+    
+5.  override, final, virtual function, virtual destructor?   
