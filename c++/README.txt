@@ -56,4 +56,26 @@ c++ Interview questions
 
         class is typically used when implementing full object oriented features. 
         such us encapsulation, inheritance, ploymorphism, etc.
-3) 
+
+3) What are access specifiers?
+
+        private, protected, public.
+
+        | Access Specifier | Accessible Within Class | Accessible in Derived Class | Accessible Outside Class |
+        | ---------------- | ----------------------- | --------------------------- | ------------------------ |
+        | `public`         | ✅                       | ✅                           | ✅                        |
+        | `protected`      | ✅                       | ✅                           | ❌                        |
+        | `private`        | ✅                       | ❌                           | ❌                        |
+
+     Default Access:
+        In classes, members are private by default.
+        In structs, members are public by default.
+
+    ✅ Summary Table: How Base Class Members Are Inherited
+        | Base Member Access | `public` Inheritance | `protected` Inheritance | `private` Inheritance |
+        | ------------------ | -------------------- | ----------------------- | --------------------- |
+        | `public`           | `public`             | `protected`             | `private`             |
+        | `protected`        | `protected`          | `protected`             | `private`             |
+        | `private`          | Not Inherited        | Not Inherited           | Not Inherited         |
+
+4.  override, final, virtual function, virtual destructor?   
