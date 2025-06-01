@@ -42,4 +42,18 @@ c++ Interview questions
         c: no in-bulit exception handling
         c++: has try-catch exception handling
 
-2) 
+2) What is the difference between struct and class in C++?
+
+    In c++ struct and class are mostly similar - both can have the member variables, member functions,
+    access specifier, support inheritance, constructor, destructor, etc.
+
+    however they are 2 difference,
+    1) default access specifier for member variable, member functions, base class inheritance for struct is public.
+       default access specifier for member variable, member functions, base class inheritance for class is private.
+    2) usage convention
+        struct is generally used plain data structure.  
+        Typically just for storing the data without complex behaviour.
+
+        class is typically used when implementing full object oriented features. 
+        such us encapsulation, inheritance, ploymorphism, etc.
+3) 
