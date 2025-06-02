@@ -1,0 +1,118 @@
+𝟭. 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴
+ - https://lnkd.in/dBHKz3MH
+ - https://lnkd.in/dM9eaqXN
+ - https://lnkd.in/dC5gsUhG
+ - https://lnkd.in/dMXWrbqW 
+
+𝟮. 𝗟𝗶𝗻𝗸𝗲𝗱 𝗟𝗶𝘀𝘁
+ - https://lnkd.in/dn5HMnuA
+ - https://lnkd.in/d-xiu4gB
+
+𝟯. 𝗧𝘄𝗼 𝗽𝗼𝗶𝗻𝘁𝗲𝗿𝘀
+ - https://lnkd.in/dK_fB-Eg
+ - https://lnkd.in/d8ytqvbi
+
+𝟰. 𝗦𝘁𝗮𝗰𝗸 & 𝗤𝘂𝗲𝘂𝗲
+ - https://lnkd.in/dEFrRp2h
+ - https://lnkd.in/dMABxhmf
+
+𝟱. 𝗚𝗿𝗮𝗽𝗵𝘀
+ - https://lnkd.in/dCgzmMEr
+ - https://lnkd.in/d6QHviDU
+ - Union Find: https://lnkd.in/dcxQ8xW3
+
+𝟲. 𝗣𝗿𝗲𝗳𝗶𝘅 𝗦𝘂𝗺
+ - https://lnkd.in/dFQtwsrg
+
+𝟳. 𝗦𝗹𝗶𝗱𝗶𝗻𝗴 𝗪𝗶𝗻𝗱𝗼𝘄
+ - https://lnkd.in/dPiMzzpA
+
+𝟴. 𝗕𝗮𝗰𝗸𝘁𝗿𝗮𝗰𝗸𝗶𝗻𝗴
+ - https://lnkd.in/dUMsdB97
+ - https://lnkd.in/dgDTXJtr
+
+𝟵. 𝗧𝗿𝗲𝗲
+ - https://lnkd.in/d4W8A4JG
+ - https://lnkd.in/dyCemmkC
+ - https://lnkd.in/dNHsBERw
+
+𝟭𝟬. 𝗥𝗲𝗰𝘂𝘀𝗿𝗶𝗼𝗻
+ - https://lnkd.in/d7n2SAjC
+
+𝟭𝟭. 𝗛𝗲𝗮𝗽
+ - https://lnkd.in/dnNKNtah
+ - https://lnkd.in/dU2QGCXW
+
+𝟭𝟮. 𝗕𝗶𝗻𝗮𝗿𝘆 𝗦𝗲𝗮𝗿𝗰𝗵
+ - https://lnkd.in/dpqAttez
+ - https://lnkd.in/dxk7kdeb
+
+𝟭𝟯. 𝗚𝗿𝗲𝗲𝗱𝘆
+ - https://lnkd.in/ddydHD4n
+
+𝟭𝟰. 𝗕𝗶𝘁𝘀 𝗠𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻
+ - https://lnkd.in/dU-tz766
+
+𝟭𝟱. 𝗦𝘁𝗿𝗶𝗻𝗴𝘀
+ - https://lnkd.in/dVAypcSx
+
+𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗔𝗿𝘁𝗶𝗰𝗹𝗲𝘀
+ - https://lnkd.in/dXUUm52n
+ - https://lnkd.in/dqaKd4nh
+ - https://lnkd.in/dAUnKCQ5
+ 
+
+ 
+☑️ 𝐖𝐞𝐞𝐤 𝟏-𝟐: 𝐀𝐫𝐫𝐚𝐲𝐬, 𝐒𝐭𝐫𝐢𝐧𝐠𝐬, 𝐌𝐚𝐭𝐡 – Prefix sum, sliding window, two pointers, hashing
+☑️ 𝐖𝐞𝐞𝐤 𝟑-𝟒: 𝐋𝐢𝐧𝐤𝐞𝐝 𝐋𝐢𝐬𝐭, 𝐒𝐭𝐚𝐜𝐤, 𝐐𝐮𝐞𝐮𝐞 – Singly/doubly LL, fast-slow pointers, stack with min/max, queue variations
+☑️ 𝐖𝐞𝐞𝐤 𝟓: 𝐓𝐫𝐞𝐞𝐬 & 𝐁𝐢𝐧𝐚𝐫𝐲 𝐓𝐫𝐞𝐞𝐬 – Preorder/Inorder/Postorder, BFS/DFS, diameter, balanced trees
+☑️ 𝐖𝐞𝐞𝐤 𝟔: 𝐁𝐒𝐓 & 𝐓𝐫𝐢𝐞𝐬 – Floor/Ceil, kth smallest, delete in BST, prefix search
+☑️ 𝐖𝐞𝐞𝐤 𝟕: 𝐑𝐞𝐜𝐮𝐫𝐬𝐢𝐨𝐧 & 𝐁𝐚𝐜𝐤𝐭𝐫𝐚𝐜𝐤𝐢𝐧𝐠 – Subsets, permutations, N-Queens, Sudoku solver
+☑️ 𝐖𝐞𝐞𝐤 𝟖: 𝐇𝐞𝐚𝐩𝐬 & 𝐏𝐫𝐢𝐨𝐫𝐢𝐭𝐲 𝐐𝐮𝐞𝐮𝐞 – Median of stream, Top K elements, custom comparator
+☑️ 𝐖𝐞𝐞𝐤 𝟗: 𝐆𝐫𝐚𝐩𝐡𝐬 (𝐁𝐅𝐒, 𝐃𝐅𝐒) – Detect cycle, connected components, bipartite, topological sort
+☑️ 𝐖𝐞𝐞𝐤 𝟏𝟎: 𝐆𝐫𝐚𝐩𝐡𝐬 (𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝) – Dijkstra, Prim’s, Kruskal’s, Union Find, shortest path variants
+☑️ 𝐖𝐞𝐞𝐤 𝟏𝟏: 𝐃𝐲𝐧𝐚𝐦𝐢𝐜 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 – 1D DP (Linear DP), 2D/Matrix DP, DP on Strings, Subsequences, Bitmask DP, Trees, Graphs, Interval DP, MCM Problems, Game Theory DP
+
+
+1. Reverse a linked list.
+2. Find the middle element of a linked list.
+3. Implement a stack using arrays/linked list.
+4. Implement a queue using arrays/linked list.
+5. Find the factorial of a number using recursion.
+6. Implement binary search in an array.
+7. Find the largest/smallest element in an array.
+8. Implement merge sort.
+9. Implement quick sort.
+10. Detect a cycle in a linked list.
+11. Find the intersection point of two linked lists.
+12. Check if a binary tree is a binary search tree (BST).
+13. Print all leaf nodes of a binary tree.
+14. Reverse a binary tree.
+15. Find the height of a binary tree.
+16. Implement depth-first search (DFS) on a graph.
+17. Implement breadth-first search (BFS) on a graph.
+18. Check if a graph is connected.
+19. Implement Dijkstra's algorithm for shortest path.
+20. Implement Prim's algorithm for minimum spanning tree.
+21. Implement Kruskal's algorithm for minimum spanning tree.
+22. Find the longest common subsequence of two strings.
+23. Find the longest increasing subsequence of an array.
+24. Implement the Knuth–Morris–Pratt (KMP) algorithm for string matching.
+25. Implement the Rabin-Karp algorithm for string matching.
+26. Check if a string is a palindrome.
+27. Check if two strings are anagrams of each other.
+28. Find the next greater element in an array.
+29. Find the kth smallest/largest element in an array.
+30. Find the median of two sorted arrays.
+31. Implement a trie (prefix tree).
+32. Find all subsets of a set.
+33. Find all permutations of a string.
+34. Implement the Josephus Problem.
+35. Implement an LRU (Least Recently Used) Cache.
+36. Find the longest palindrome substring in a string.
+37. Implement a priority queue.
+38. Implement a hashmap (dictionary).
+39. Count the number of inversions in an array.
+40. Find the shortest path in a maze.
+
+
