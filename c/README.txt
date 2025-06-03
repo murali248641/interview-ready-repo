@@ -430,6 +430,39 @@ C interview questions:
 
 62. write own atoi() function in c?
 
+63. format specifier of c?
+
+            short int  ->   %hd  -> size 2 byte
+    unsigned short int ->   %ud  -> size 2 byte
+                  int  ->    %d  -> size 4 byte
+        unsigened int  ->    %u  -> size 4 byte
+             long int  ->   %ld  -> size 4 bytes in windows, unix may be 8 byte(depends on system)
+    unsigned long int  ->   %lu  -> size 4 bytes in windows, unix may be 8 byte(depends on system)
+         long long int ->  %lld  -> size 8 byte
+unsigned long long int ->  %llu  -> size 8 byte
+
+                 char  ->    %c  -> size 1 byte
+        unsigned char  ->    %c  -> size 1 byte
+                 float ->    %f  -> size 4 byte
+                double ->   %lf  -> size 8 byte
+           long double ->   %Lf  -> size 16 byte
+
+    precision in while printing 
+    ==========================
+    printf("%0.1f\n", 6.0);     // Output: 6.0   → No effect of 0
+    printf("%5.1f\n", 6.0);     // Output: "  6.0" → padded with spaces (width = 5)
+    printf("%05.1f\n", 6.0);    // Output: "006.0" → zero-padded to width 5
+    printf("%08.2f\n", 6.0);    // Output: "00006.00"
+
+    integer
+    =======
+    printf("%0.3d", 6);   // Output: 006   (precision = 3 digits)
+    printf("%03d", 6);    // Output: 006   (width = 3, zero-padded)
+    printf("%.3d", 6);    // Output: 006   (same as above)
+
+
+
+
 
 
 

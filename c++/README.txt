@@ -85,5 +85,10 @@ c++ Interview questions
     its same us class name. it called whenever object is created.
     purpose of this initializing the members of the object.
 
+5. What is a destructor? When is it called?
+
+    destructor is a special member function of a class. 
+    it is called whenever object freed or going out of scope.
+    Generally its used for free resource of class.
     
 5.  override, final, virtual function, virtual destructor?   
