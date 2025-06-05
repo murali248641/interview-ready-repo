@@ -42,3 +42,12 @@ roku
 Golbal logic
 
 
+
+HLS, mediaplayer, gstreamer
+Knowledge on Video Codecs (H264 / MPEG/HEVC / VP9 / AV1) specifications
+knowledge of Multimedia Frameworks (Gstreamer, FFMPEG) and multimedia file formats
+Git source version control and GitHub.
+Media technology (e.g. ExoPlayer, AVFoundation, HTML5 video) 
+Streaming technology (e.g. DASH, HLS) 
+DRM systems (e.g. FairPlay, Widevine, PlayReady) 
+Device platforms (e.g. Android, UWP, set-top box) 
