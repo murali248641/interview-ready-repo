@@ -1,3 +1,9 @@
+c/go/c++/cloud
+==============
+pubmatic
+netapp
+
+
 embedded software engineer (firmware, c, linux, rtos, device driver(i2c, uart, spi, etc ))
 ==========================================================================================
 sandisk
