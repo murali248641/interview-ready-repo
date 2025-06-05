@@ -90,5 +90,7 @@ c++ Interview questions
     destructor is a special member function of a class. 
     it is called whenever object freed or going out of scope.
     Generally its used for free resource of class.
+
+6. 
     
 5.  override, final, virtual function, virtual destructor?   
