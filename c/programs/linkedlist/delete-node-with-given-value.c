@@ -10,6 +10,22 @@ typedef struct Node
 void create_node(int value, NODE **head, NODE **tail);
 void print_list(NODE *head);
 void delete_node(int value, NODE **head, NODE **tail);
+void free_list(NODE **head, NODE **tail);
+
+void free_list(NODE **head, NODE **tail)
+{
+    NODE *cur = *head;
+    NODE *next = NULL;
+
+    while (cur)
+    {
+        next = cur->next;
+        free(cur);
+        cur = next;
+    }
+
+    *head = *tail = NULL;
+}
 
 void create_node(int value, NODE **head, NODE **tail)
 {
@@ -116,4 +132,6 @@ int main()
     delete_node(6, &head, &tail);
 
     print_list(head);
+
+    free_list(&head, &tail);
 }
