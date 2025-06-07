@@ -1,0 +1,102 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node
+{
+    int value;
+    struct node *next;
+} NODE;
+
+void create_node(int value, NODE** head, NODE** tail);
+void print_node (NODE *head);
+NODE* reverse_node(NODE **head, NODE **tail);
+void delete_node(NODE **head, NODE** tail);
+
+void create_node(int value, NODE** head, NODE** tail)
+{
+    NODE *new_node = (NODE*) malloc(sizeof(NODE));
+    if(new_node == NULL)
+    {
+        printf("\n malloc failed \n");
+        return;
+    }
+
+    new_node ->value = value;
+    new_node ->next  = NULL;
+
+    if (!*head)
+    {
+        *head = *tail = new_node;
+    }
+    else
+    {
+        new_node->next = *head;
+        *head = new_node;
+    }
+}
+
+void print_node (NODE *head)
+{
+    NODE *temp = head;
+
+    printf("\n printing the linked list node\n");
+    while(temp)
+    {   
+        printf("%d ", temp->value);
+        temp = temp ->next;
+    }
+    printf("\n");
+}
+
+NODE* reverse_node(NODE **head, NODE **tail)
+{
+    if ((*head == NULL) || ((*head)->next == NULL))
+    {
+        *tail = *head;
+        return *head;
+    }
+
+    NODE *rev_head = reverse_node(&(*head)->next, tail);
+    (*head) ->next ->next = *head;
+    (*head) ->next = NULL;
+
+    return rev_head;
+}
+
+void delete_node(NODE **head, NODE** tail)
+{
+    NODE *next;
+    
+    while(*head)
+    {
+        next = (*head)->next;
+        free(*head);
+        *head = next;
+    }
+
+    *head = *tail = NULL;
+}
+
+int main()
+{
+    NODE *head, *tail;
+
+    head = tail = NULL;
+
+    create_node(8, &head, &tail);
+    create_node(3, &head, &tail);
+    create_node(4, &head, &tail);
+    create_node(5, &head, &tail);
+    create_node(7, &head, &tail);
+    create_node(99, &head, &tail);
+    create_node(22, &head, &tail);
+
+    print_node(head);
+
+    head = reverse_node(&head, &tail);
+
+    print_node(head);
+
+    delete_node(&head, &tail);
+}
+

@@ -1,4 +1,3 @@
-
 1. semaphore vs mutex?
 2. usecases for semaphore and mutex? when to use both?
 3. binary semaphore vs mutex?
@@ -11,6 +10,9 @@
 10. kernal thread vs user thread diffference?
 11. process cretaion program in c?
     fork(), fork()+exec()?
+12. atomic?
+13. condition variable?
+
 
 1. create a thread pool in c?
 2. How would you implement a circular (ring) buffer in C?
