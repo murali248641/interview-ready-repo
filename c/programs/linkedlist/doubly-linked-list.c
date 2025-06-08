@@ -16,6 +16,29 @@ void print_list(void);
 void print_list_using_tail(void);
 void reverse_list(void);
 void free_list(void);
+void reverse_list_recursive(NODE *cur);
+
+void reverse_list_recursive(NODE *cur)
+{
+    NODE *temp = NULL;
+
+    if (cur==NULL)
+        return;
+
+    temp = cur->next;
+    cur->next = cur->prev;
+    cur->prev = temp;
+    
+    if (cur->prev == NULL)
+    {
+        temp = head;
+        head = tail;
+        tail = temp;
+        return;
+    }
+
+    reverse_list_recursive(cur->prev);
+}
 
 void create_node(int value)
 {
@@ -117,7 +140,8 @@ int main()
     print_list();
     print_list_using_tail();
 
-    reverse_list();
+    //reverse_list();
+    reverse_list_recursive(head);
 
     print_list();
     print_list_using_tail();
