@@ -1,0 +1,139 @@
+pubmatic
+========
+
+Core C Programming
+        What is the difference between ++i and i++? Where does it matter in performance?
+        Explain the difference between const int *p, int * const p, and const int * const p.
+        What is volatile keyword? When would you use it?
+        What does the restrict keyword do in C99?
+        What is the use of static in function scope vs file scope?
+        Difference between malloc and calloc. Which one is faster and why?
+        What is memory alignment and why is it important?
+        How does a C program start execution?
+            os loader -> _start() -> libcinit() -> main() -> exit()
+        What happens if you write to a freed pointer?
+            undefined behaviour
+                -> sometime works
+                -> crash(segmentation fault)
+                -> corruption
+                -> double free -> may lead to heap corruption
+        How is a union different from a struct in terms of memory layout?
+
+pointers and memory
+===================
+    Explain pointer arithmetic with examples.
+    What is a dangling pointer and how can you avoid it?
+    Explain double pointer (int **p). Give a real-world usage.
+    How do you avoid memory leaks in C?
+    What tools do you use to detect memory issues? (e.g., Valgrind, AddressSanitizer)
+
+
+Data Structures (C implementations)
+    Implement a singly linked list and reverse it recursively.
+    How do you detect a cycle in a linked list?
+    Implement a queue using two stacks.
+    Write code to merge two sorted arrays.
+    Design a memory pool in C. What would be the advantage?
+
+Concurrency / Multithreading (if using POSIX)
+    What is a race condition? How do you avoid it in C?
+    Difference between mutex, semaphore, and spinlock.
+    What is a deadlock? How can it be avoided?
+    How does fork() behave in a multithreaded process?
+    Is malloc thread-safe?
+
+System-level / Embedded / OS Concepts
+    What happens when you call malloc? Where does the memory come from?
+    How does memory get divided between stack and heap?
+    Difference between user space and kernel space.
+    What is an interrupt? How do you handle one in embedded C?
+    What is a memory-mapped I/O? Have you worked with it?
+
+Tricky / Optimization Questions
+    How to find if a number is power of 2 using bitwise ops?
+    Swap two numbers without a temp variable.
+    Count number of 1s in an integer.
+    Optimize a function to find the maximum in an array.
+    What compiler optimizations can break volatile variable usage?
+
+Real-World Debugging / Experience
+    Describe a memory corruption bug you solved.
+    Have you debugged using GDB? What are your favorite commands?
+    How do you debug intermittent crashes in embedded systems?
+    How do you handle versioning of firmware in your projects?
+    What is the longest time you spent debugging a C bug? What was the issue?
+
+
+
+// reverse the linked list (iterative mode)
+
+// reverse the linked list (recursive mode)
+
+
+// detect the loop in the linked list
+int Has_loop(NODE *head)
+{
+    NODE *slow=head, *fast=head;
+
+    while( fast && fast->next)
+    {
+        slow = slow->next;
+        fast = fast->next->next;
+
+        if (slow == fast)
+            return 1;
+    }
+
+    return 0;
+}
+
+// detect and find the start point of linked list
+
+// remove the loop in linked list
+
+// reverse the from to to position in linked list
+
+
+// swap two 2 variable with out temp
+void swap(int *a, int *b)
+{
+    *a = *a^*b;
+    *b = *a^*b;
+    *a = *a^*b; 
+}
+
+//check number is power of two
+int power_of_two(int n)
+{
+    return ((n>0)&&((n&(n-1))==0));
+}
+
+// even or odd number check
+int is_odd(int n)
+{
+    return (n&1);
+}
+
+//count no of 1s in the integer
+int noofones(int number)
+{
+    int count = 0; 
+
+    while(number)
+    {
+        if (number&1)
+            ++count;
+        
+        number = number>>1;
+    }
+
+    return count;
+}
+
+// Explain the difference between const int *p, int * const p, and const int * const p.
+int *             - pointer to int
+int * const       - const pointer to int
+const int *       - pointer to const int
+const int * const - const pointer to const int
+
+//merge two sorted array
