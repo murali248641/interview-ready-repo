@@ -44,5 +44,4 @@ int main()
     }
 
     printf("\nafter word reverse the sentence is : %s", a);
-
 }
