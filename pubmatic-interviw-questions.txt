@@ -74,6 +74,10 @@ cheat sheet
 
 // reverse the doublely linked list (recursive mode)
 
+// sort the linked list
+
+
+
 // detect the loop in the linked list
 int Has_loop(NODE *head)
 {
