@@ -1,0 +1,13 @@
+
+
+linux boot process
+==================
+
+linux divided into six level stages
+
+BIOS
+MBR
+GRUB
+KERNAL
+init
+Runlevel
