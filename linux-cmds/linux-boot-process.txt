@@ -11,3 +11,81 @@ GRUB
 KERNAL
 init
 Runlevel
+
+
++--------------------+
+|  Power On / Reset  |
++---------+----------+
+          |
+          v
++--------------------+
+|  Firmware (BIOS/UEFI)  |
++---------+----------+
+          |
+          v
++--------------------+
+| Bootloader (GRUB, etc) |
++---------+----------+
+          |
+          v
++--------------------+
+|   Linux Kernel     |
+|  - Initramfs       |
+|  - Device drivers  |
++---------+----------+
+          |
+          v
++----------------------------+
+|  PID 1: systemd            |
+|                            |
+|  - Parses unit files       |
+|  - Mounts root FS          |
+|  - Starts udevd            |
+|  - Sets hostname/timezone  |
+|  - Starts services         |
++---------+------------------+
+          |
+          v
++----------------------------+
+|  systemd Targets           |
+|                            |
+|  ┌──────────────────────┐  |
+|  │ basic.target         │  |
+|  └──────────────────────┘  |
+|        ↓                   |
+|  ┌──────────────────────┐  |
+|  │ multi-user.target    │  |  <-- CLI Login
+|  └──────────────────────┘  |
+|        ↓                   |
+|  ┌──────────────────────┐  |
+|  │ graphical.target     │  |  <-- GUI/Display Manager (if used)
+|  └──────────────────────┘  |
++----------------------------+
+          |
+          v
++--------------------+
+| User Login Shell   |
++--------------------+
+
+
+systemd (PID 1)
+===============
+Initializes the userspace:
+Mounts essential filesystems (/proc, /sys, /dev)
+Starts systemd-udevd for device management.
+Sets hostname, locale, timezone.
+Launches early services.
+
+
+======================================
+
+systemd
+jounelctld -> log
+dmesg
+udev
+d-bus
+signalling
+
+======================================
+
+

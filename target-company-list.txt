@@ -55,6 +55,65 @@ Streaming technology (e.g. DASH, HLS)
 DRM systems (e.g. FairPlay, Widevine, PlayReady) 
 Device platforms (e.g. Android, UWP, set-top box) 
 
+=====================================================================================
+=====================================================================================
+=====================================================================================
+ Core DSA Topics to Master (With Resources)
+
+• Arrays & Strings
+LeetCode Arrays 101 Guide: https://lnkd.in/g-eEvyHu
+LeetCode String Practice: https://lnkd.in/gM7EwfBB
+
+• Hashing
+NeetCode Hashmap Pattern: https://lnkd.in/gCXMaXap
+
+• Sliding Window & Two Pointers
+LeetCode Sliding Window: https://lnkd.in/gq-_ship
+NeetCode Two Pointers: https://lnkd.in/gc5BMD83
+
+• Recursion & Backtracking
+LeetCode Backtracking Problems: https://lnkd.in/gw_r67g3
+GFG Recursion Basics: https://lnkd.in/giHuHxWM
+
+• Linked Lists
+NeetCode Linked List Pattern: https://lnkd.in/gHwcXCVw
+
+• Trees & Binary Trees
+NeetCode Binary Tree Pattern: https://lnkd.in/g_MbeBAY
+
+• Binary Search & Sorting
+LeetCode Binary Search Guide: https://lnkd.in/gJ2scJeP
+GFG Sorting Algorithms: https://lnkd.in/g4D4trky
+
+• Graphs (BFS/DFS)
+LeetCode Graph Problems: https://lnkd.in/gN7Ymztm
+GFG Graph Theory Basics: https://lnkd.in/giTH9skx
+
+• Heaps & Priority Queues
+LeetCode Heap Problems: https://lnkd.in/ggydC4Q2
+GFG Priority Queue Intro: https://lnkd.in/gZ7UN5MY
+
+• Dynamic Programming (DP)
+DP Pattern List (Mission Peace): https://lnkd.in/g3kPtACW
+Striver’s DP Playlist: https://lnkd.in/gCw_YHNk
+
+🔹 How Much is Enough?
+
+ 250–300 problems across these topics
+ Solve by pattern, not just topic
+ Use these curated sheets:
+
+• Blind 75: https://lnkd.in/gMS3MnHq
+• Striver’s SDE Sheet: https://lnkd.in/gQD_HwWf
+• NeetCode 150: https://lnkd.in/gApAUgQc
+
+Pro Tip: You don’t need to do 20 variations of the same question. Understand the pattern, solve a few, move on — depth over volume.
+=====================================================================================
+=====================================================================================
+=====================================================================================
+
+
+
 
 
 → Strings
